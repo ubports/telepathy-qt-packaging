@@ -1,3 +1,9 @@
+telepathy-qt (0.9.8+ubports5) xenial; urgency=medium
+
+  * Upgrade TpQt to 0.9.8
+
+ -- Lionel Duboeuf <pikatchutest@myself.net>  Mon, 11 May 2020 08:58:22 +0000
+
 telepathy-qt (0.9.7+ubports4) xenial; urgency=medium
 
   * Import to UBports
