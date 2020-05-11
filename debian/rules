@@ -4,7 +4,10 @@ include /usr/share/dpkg/architecture.mk
 
 CMAKE_OPTS := -DDISABLE_WERROR=ON -DHAVE_DOT=YES \
               -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" \
-              -DCMAKE_BUILD_TYPE=RelWithDebInfo
+              -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+              -DENABLE_EXAMPLES=NO \
+              -DFORCE_STATIC_SERVICE_LIBRARY=YES
+
 
 
 %:
