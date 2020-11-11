@@ -1,3 +1,9 @@
+telepathy-qt (0.9.7+ubports4build1) xenial; urgency=medium
+
+  * No-change rebuild to obtain debugging symbols.
+
+ -- Ratchanan Srirattanamet <ratchanan@ubports.com>  Wed, 11 Nov 2020 23:14:03 +0700
+
 telepathy-qt (0.9.7+ubports4) xenial; urgency=medium
 
   * Import to UBports
